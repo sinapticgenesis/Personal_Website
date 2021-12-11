@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color:rgb(233, 231, 231)
+    
+}
+body{
+    background-color: rgb(45, 58, 66);
+}
+header{
+    background-color: rgb(100,100,100);
+    background-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav{
+    justify-content: left;
+    margin:0%;
+}
+
+.navlinklist{
+    margin: 2.5%;
+    display: flex;
+    padding: 0%;
+}
+
+.navlinklist li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 120px;
+    letter-spacing: 2px;
+}
+
+.navlink{
+    text-decoration: none;
+    color:rgb(245, 244, 244);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navlinklist li a:hover{
+    color:#E74E35
+}
+
+button{
+    padding: 9px 50%;
+    border: none;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(231,78,53, 1);
+}
+button:hover{
+    background-color: rgba(231,78,53, 0.5);
+}
+
+.contactbutton{
+    position: relative; left: 40%;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.speech1{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    width: 40rem;
+}
+.skills{
+    color: blanchedalmond;
+    font-size: 2rem;
+    text-align: center;
+    
+}
